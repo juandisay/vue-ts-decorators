@@ -62,7 +62,7 @@ Code snippets for vue component and vuex store with typescript
 
   ```typescript
   import { VuexModule, Module, getModule, Action, Mutation } from 'vuex-module-decorators'
-  import store from '@/store/store'
+  import store from '@/store/index'
   
   export interface IModuleState{
     
