@@ -2,7 +2,7 @@
     "name": "vue-ts-snippets",
     "displayName": "vue typescript snippets",
     "description": "Code snippets for vue component and vuex store with typescript",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "tangjq",
     "engines": {
         "vscode": "^1.43.0"
