@@ -1,6 +1,6 @@
 {
   "Vuex store init snippet":{
-    "prefix":"vx/init",
+    "prefix":"vx - init",
     "body":[
       "import Vue from 'vue'",
       "import Vuex from 'vuex'",
@@ -13,25 +13,25 @@
       "",
       "export default new Vuex.Store<IRootState>({})"
     ],
-    "description":"Vuex index.ts snippet"
+    "description":"Vuex store初始化snippet"
   },
   "Vuex module snippet":{
-    "prefix":"vx/module",
+    "prefix":"vx - module",
     "body":[
       "import { VuexModule, Module, getModule, Action, Mutation } from 'vuex-module-decorators'",
       "import store from '@/store/index'",
       "",
-      "export interface ${3:IModuleState}{",
+      "export interface ${4:IModuleState}{",
       "  $5",
       "}",
       "",
       "@Module({ name: '${1:name}', store, dynamic: true })",
-      "class ${2:ModuleName} extends VuexModule implements ${3:IModuleState} {",
+      "class ${2:ModuleName} extends VuexModule implements ${4:IModuleState} {",
       "  ",
       "}",
       "",
-      "export const ModuleNameModule = getModule(${2:ModuleName})"
+      "export const ${3:ModuleNameModule} = getModule(${2:ModuleName})"
     ],
-    "description":"Vuex store module snippet"
+    "description":"Vuex store模块snippet"
   }
 }

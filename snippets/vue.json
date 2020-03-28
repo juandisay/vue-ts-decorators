@@ -1,6 +1,6 @@
 {
   "Vue component snippet":{
-    "prefix":"v/init",
+    "prefix":"v - init",
     "body":[
       "<template>",
       "  <div>",
@@ -13,7 +13,7 @@
       "",
       "@Component({",
       "  name: '$3',",
-      "  components:{",
+      "  components: {",
       "    $4",
       "  }",
       "})",
@@ -26,6 +26,6 @@
       "  ",
       "</style>"
     ],
-    "description":"Vue component snippet"
+    "description":"Vue组件snippet"
   }
 }

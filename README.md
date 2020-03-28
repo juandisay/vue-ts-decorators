@@ -10,7 +10,7 @@ Code snippets for vue component and vuex store with typescript
 
 ##### .vue files snippets
 
-+ v/init  
++ v - init  
 
   ```vue
   <template>
@@ -41,7 +41,7 @@ Code snippets for vue component and vuex store with typescript
 
 ##### Vuex store module snippets
 
-+ vx/init  
++ vx - init  
 
   ```typescript
   import Vue from 'vue'
@@ -58,7 +58,7 @@ Code snippets for vue component and vuex store with typescript
 
   
 
-+ vx/module
++ vx - module
 
   ```typescript
   import { VuexModule, Module, getModule, Action, Mutation } from 'vuex-module-decorators'
