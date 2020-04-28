@@ -1,6 +1,10 @@
 # Change Log
 
-## 0.0.2
+## 0.1.1
+
+- add mixin snippet
+
+## 0.1.0
 
 - fixed prefix
 

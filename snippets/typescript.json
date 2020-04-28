@@ -33,5 +33,19 @@
       "export const ${3:ModuleNameModule} = getModule(${2:ModuleName})"
     ],
     "description":"Vuex store模块snippet"
+  },
+  "Vue component mixin snippet":{
+    "prefix":"v - mixin",
+    "body":[
+      "import { Component, Vue } from 'vue-property-decorator'",
+      "",
+      "@Component({",
+      "  name: '$1',",
+      "})",
+      "export default class extends Vue {",
+      "  ",
+      "}"
+    ],
+    "description":"Vue组件snippet"
   }
 }

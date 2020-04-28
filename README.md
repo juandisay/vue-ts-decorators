@@ -37,6 +37,23 @@ Code snippets for vue component and vuex store with typescript
   </style>
   ```
 
+
+
+##### Vue component mixin snippet
+
++ v - mixin
+
+  ```typescript
+  import { Component, Vue } from 'vue-property-decorator'
+  
+  @Component({
+    name: '',
+  })
+  export default class extends Vue {
+    
+  }
+  ```
+  
   
 
 ##### Vuex store module snippets
